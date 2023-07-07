@@ -3,10 +3,12 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  background-color: brown;
+  background-image: linear-gradient(to right, brown,white);
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  color: yellowgreen;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -26,7 +28,7 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: black
 }
 
 h1 {
@@ -43,6 +45,7 @@ h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color: black;
 }
 
 img {
@@ -56,7 +59,7 @@ p {
 }
 
 a {
-  color: black;
+  color: darkblue;
   text-decoration: none;
 }
 
@@ -72,10 +75,10 @@ a:hover {
 
 @media only screen and (max-width: 784px) {
   body {
-    font-size: 120%;
+    font-size: 150%;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   h2 {
     font-size: 1em;
